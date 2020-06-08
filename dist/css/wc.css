@@ -1,0 +1,10 @@
+/* woodi-consult.de */
+.wc-foot {
+    color: red;
+    
+}
+.wc-foot li {
+    /* remove list point and horizontly */
+    display: inline;
+}
+

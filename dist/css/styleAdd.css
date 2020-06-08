@@ -1,0 +1,46 @@
+
+.notification-bar a {
+    color: #fc3;
+}
+
+.tm-footer {
+    background: white!important;
+    margin: 0!important;
+    padding: 5px 0;
+    font-size: 12px;
+    color: #999;
+}
+
+.uk-panel, .uk-panel:hover {
+    text-decoration: none;
+}
+
+.uk-panel {
+    display: block;
+    position: relative;
+}
+
+.uk-panel:before, .uk-panel:after {
+    content: "";
+    display: table;
+}
+
+.uk-subnav-line > :before {
+    content: "";
+    display: inline-block;
+    height: 10px;
+    vertical-align: middle;
+}
+.uk-subnav {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-top: -10px;
+    padding: 0;
+    list-style: none;
+}
+
