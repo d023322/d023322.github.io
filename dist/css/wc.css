@@ -1,10 +1,18 @@
 /* woodi-consult.de */
 .wc-foot {
     color: red;
-    
 }
 .wc-foot li {
     /* remove list point and horizontly */
     display: inline;
 }
+ul.a {
+    list-style-type: none;
+    display: inline;
+}
+ul.x {
+    list-style-type: none;
+    padding-right: 0px;
+}
+
 
