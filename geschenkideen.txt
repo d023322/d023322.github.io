@@ -1,3 +1,5 @@
 Hose
 Jacke
 Hemd
+PKW
+Motorrad
