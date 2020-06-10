@@ -1,0 +1,89 @@
+Git - Kurzreferenz
+User-Konfiguration
+git config --global user.name "<user name>"
+git config --global user.email <user email>	User konfigurieren
+git config --global core.editor vim
+git config --global merge.tool vimdiff	Editor konfigurieren
+git config --list	Konfiguration anzeigen lassen
+Repository anlegen, klonen und managen
+mkdir /var/git/<project.git>
+cd /var/git/<project.git>
+git --bare init	leere Repository auf dem Git-Server <host> anlegen
+cd <projectfolder>
+git init
+git add .
+git commit -m "initial commit"
+git remote add origin git://<host>/<project.git>
+git push origin master	Git-Repository mit vorhandenen Daten auf dem Client anlegen
+git clone git://<host>/<project.git>	Git von vorhandener Repository klonen
+git clone http://:@<host>/<project.git>	*
+git clone http://<user>@<host>/<project.git>	*
+git remote add <repo> git://<host>/<project2.git>	weitere Repository hinzufügen
+Branches anzeigen, anlegen, auschecken, umbenennen o. löschen
+git branch	lokale Branches anzeigen
+git branch -r	remote Branches anzeigen
+git branch -a	lokale & remote Branches anzeigen
+git checkout <repo> <projectbranch>
+git checkout -b <mybranch>	neuen Branch anlegen
+git push --set-upstream <repo> <mybranch>	neuen Branch in das Remote Repository hochladen
+git checkout -b <featurebranch> <repo>/<featurebranch>	vorhandenen remote Branch auschecken
+git checkout <featurebranch>	vorhandenen eindeutigen remote Branch auschecken
+git checkout <mybranch>	vorhandenen lokalen Branch auschecken
+git branch -m <newbranchname>	ausgecheckten Branch umbenennen
+git branch -d <featurebranch>	lokalen (gemergen) Branch löschen
+git branch -D <featurebranch>	lokalen Branch (auch ungemerged) löschen
+git push <repo> --delete <featurebranch>	remote Branch löschen
+lokale Repository / Branches aktualisieren
+git fetch --all	Objekte und Referenzen von allen Remotes herunterladen
+git pull -r [<repo> <branch|refspec>]	Objekte herunterladen und integrieren, inklusive Rebase
+aktuelle Änderungen und Commits anzeigen
+git status [-s]	Änderungen im Working Tree (zum HEAD) anzeigen
+git show	Commit Message und Änderungen (diff) des letzten Commits anzeigen
+git show <commit|tag>	Commit Message und Änderungen eines bestimmten Commits anzeigen
+git diff	Änderungen zum letzten Commit anzeigen
+git diff <commit|tag> [<file>]	Änderungen zu einem bestimmten Commit anzeigen
+git difftool	Änderungen anzeigen unter Verwendung eines Diff-Tools, z.Bsp. kdiff3
+git blame <file>	Wer hat wann was an einer bestimmten Datei geändert?
+git blame -L <start>,<end> <file>	Änderungen anzeigen für bestimmten Bereich (Zeilennummern, regex) ?
+git branch --contains <commit>	alle Branches auflisten, die einen bestimmten Commit enthalten
+git log [[--] <path>]	Commit Logs anzeigen
+git log --oneline	Commit Logs einzeilig anzeigen
+git log --author <'author name'>	alle Commits eines bestimmten Autors anzeigen
+git log --after <date> --before <date>	Commits aus einem bestimmten Zeitraum anzeigen, z.Bsp --after '2016-08-31'
+Patchen und Cherry-picken
+git checkout <mybranch>
+git diff <basecommit> <mycommit> > <patch.diff>	Patch aus der Differenz zwischen zwei Commits generieren
+git checkout <featurebranch>
+git apply <patch.diff>	Patch anwenden
+git checkout <branch>
+git cherry-pick -x <commit>	Änderungen eines vorhandenen Commits anwenden, die originale Commit-Beschreibung wird beibehalten.
+git cherry-pick --abort	Cherry-pick abbrechen und Änderungen verwerfen
+Änderungen zum Index hinzufügen o. verwerfen, sowie committen u. pushen
+git add <file01> <file02> <file03>	Änderungen zum Index hinzufügen
+git add .	*
+git rm <file>	Datei aus Working Tree und Index löschen
+git checkout -- <file>	Änderungen verwerfen
+git clean -dxf	Working Tree aufräumen
+git commit [-m <'commit message'>]	Änderungen committen
+git commit --amend	letzte Commit-Message ändern
+git reset --hard HEAD^	letzten Commit verwerfen, alle lokalen Änderungen gehen dabei unwideruflich (!) verloren
+git revert <commit>	Commit rückgängig machen
+git push [<repo> <branch>]	Änderungen in das Remote Repository pushen
+git push --dry-run	Pushen der Änderungen vorher ausprobieren, ohne wirklich zu pushen
+git push --force	Forced Update, z.Bsp. nach git commit --amend
+Tags hinzufügen u. entfernen
+git tag <tag> [<commit>]
+git push --tag	Tag hinzufügen und pushen
+git push <repo> <tag>	nur einen bestimmten Tag pushen
+git tag -d <tag>
+git push --delete <repo> <tag>	Tag entfernen
+Branches mergen und pushen
+git fetch --all	Objekte und Referenzen aus dem Git aktualisieren
+git checkout <mybranch>
+git rebase -i <featurebranch>
+git checkout <featurebranch>
+git merge --ff-only <mybranch>	Merge <mybranch> in <featurebranch>
+git checkout <projectbranch>
+git pull -r
+git merge <featurebranch>	Merge <featurebranch> in <projectbranch>
+git push <repo> <projectbranch> <featurebranch>	Beide Branches in das Git hochladen
