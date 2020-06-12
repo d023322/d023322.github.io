@@ -10,10 +10,14 @@ ul.a {
     list-style-type: none;
     display: inline;
 }
-ul.x {
+ul.wc-x {
     list-style-type: none;
     padding-right: 0px;
     color:darkblue;
+}
+.wc-x {
+    color: darkblue;
+    text-align: center;
 }
 
 
