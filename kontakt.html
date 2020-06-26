@@ -17,13 +17,13 @@
   <link rel="stylesheet" href="dist/css/style.css" type="text/css">
   <link rel="stylesheet" href="dist/css/w3.css" type="text/css">
   <link rel="stylesheet" href="dist/css/wc.css" type="text/css">
-  <link rel="stylesheet" href="dist/css/uikit.min.css" type="text/css">
+  <link rel="stylesheet" href="dist/css/uikit.css" type="text/css">
 
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.xx.x/css/uikit.min.css" /> -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.xx.x/js/uikit.min.js"></script>
+
   <!-- <script src="dist/js/uikit.min.js"></script> -->
 
-  <style>
+  <!-- <style>
     div.background {
       background: url(images/simone/b4.jpg) repeat;
       background-position: top right;
@@ -51,66 +51,77 @@
       font-family: Arial, Helvetica, sans-serif;
       font-size: small;
     }
-  </style>
+  </style> -->
 
 </head>
 
 <body>
 
   <!-- <div class="container"> -->
-  <div class=container-fluid>
-    <div class="row">
-      <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <!-- <p class="simone">Simone Frieler <br>mode-beratung.de</p> -->
-        <a class="navbar-brand"><img src="images/simone/drawing.svg" height="60px" width="150px"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <h6><a class="nav-link box" href="index.html">Aktuelles<span class="sr-only">(current)</span></a></h6>
-            </li>
-            <li class="nav-item">
-              <h6><a class="nav-link box" href="maerkte.html">Märkte</a></h6>
-            </li>
-            <li class="nav-item">
-              <h6><a class="nav-link box" href="ueberMich.html">Über&nbsp;Mich</a></h6>
-            </li>
-            <li class="nav-item">
-                <h6><a class="nav-link box" href="kontakt.html">Kontakt</a></h6>
+    <div class=container-fluid>
+      <div class="row">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+          <!-- <p class="simone">Simone Frieler <br>mode-beratung.de</p> -->
+          <a class="navbar-brand"><img src="images/simone/drawing.svg" height="60px" width="150px"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link box" href="index.html">Aktuelles</a>
               </li>
-            <li class="nav-item">
-              <h6><a class="nav-link box" href="meineWahre.html">Meine&nbsp;Ware</a></h6>
-            </li>
-          </ul>
-        </div>
-      </nav>
+              <li class="nav-item">
+                <a class="nav-link box" href="maerkte.html">Märkte</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link box" href="ueberMich.html">Über&nbsp;Mich</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link box" href="kontakt.html">Kontakt<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link box" href="meineWahre.html">Meine&nbsp;Ware</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
-  </div>
-  </di>
+    <!-- </div> -->
+
 
   <!-- Image header -->
-  <div class="container">
+  <div class="w3-display-container w3-container">
+    <img src="images/simone/buegel.jpg" alt="Erste Seite" style="width:100%">
+    <div class="w3-display-topleft w3-text-white" style="padding:24px 48px">
+      <h1 class="w3-jumbo w3-hide-small">mode-beratung.de</h1>
+      <h1 class="w3-hide-large w3-hide-medium">mode-beratung.de</h1>
+      <h1 class="w3-hide-small">kontakt@mode-beratung.de</h1>
+      <!-- <p><a href="#jeans" class="w3-button w3-black w3-padding-large w3-large"></a></p> -->
+    </div>
+  </div>
+
+  <!-- Image header -->
+  <div class="container-fluid">
     <div class="card card-inverse">
-      <img src="images/simone/buegel.jpg" alt="buegel" style="width:100%">
-      <div class="card-img-overla">
-        <h2 class="card-title ">Kontakt:</h2>
+      <!-- <img src="images/simone/buegel.jpg" alt="buegel" style="width:100%"> -->
+      <!-- <h2 class="card-title ">Kontakt:</h2> -->
+      <p>Kontaktdaten:</p>
 
-        <p><i class="uk-panel-titel uk-icon-home">Simone Frieler * Münster</i></p>
+      <p><i class="uk-panel-titel uk-icon-home">Simone Frieler * Münster</i></p>
 
-        <p><i class="uk-panel-title uk-icon-magic"><a href="https://mode-beratung.de">mode-beratung.de</a></i></p>
+      <p><i class="uk-panel-title uk-icon-magic"></i><a href="https://mode-beratung.de">mode-beratung.de</a></p>
 
-        <p><i class="uk-icon-phone uk-icon-justify"></i><a href="tel:+49 175 5105218">+49 175 5105218</a></p>
+      <p><i class="uk-icon-phone uk-icon-justify"></i><a href="tel:+49 175 5105218">+49 175 5105218</a></p>
 
-        <p><i class="uk-icon-whatsapp uk-icon-justify"></i><a href="tel:+49 175 5105218">+49 175 5105218</a></p>
+      <p><i class="uk-icon-whatsapp uk-icon-justify"></i><a href="tel:+49 175 5105218">+49 175 5105218</a></p>
 
-        <p><i class="uk-icon-envelope-o"></i><a href="mailto:kontakt@mode-beratung.de">kontakt@mode-beratung.de</a></p>
+      <p><i class="uk-icon-envelope-o"></i><a href="mailto:kontakt@mode-beratung.de">kontakt@mode-beratung.de</a></p>
 
-        <p><i class="uk-icon-cog">Erreichbar Montags - Sonntags 14:00 - 19:00 Uhr</i></p>
+      <p><i class="uk-icon-cog">Erreichbar Montags - Sonntags 14:00 - 19:00 Uhr</i></p>
 
-      </div>
     </div>
   </div>
 
@@ -240,6 +251,7 @@
   <script src="dist/js//bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
   </script>
+  <script src="dist/js/uikit.min.js "></script>
 
 </body>
 
