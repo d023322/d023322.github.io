@@ -21,7 +21,7 @@ echo "    </ul>\n";
 echo "  </div>\n";
 echo "  <div class=\"col-6 wc-foot text-left\">\n";
 echo "    <ul>\n";
-echo "      <li><a href=\"kontakt.html\">Kontakt</a></li>\n";
+echo "      <li><a href=\"kontakt.php\">Kontakt</a></li>\n";
 echo "    </ul>\n";
 echo "  </div>\n";
 echo "</div>\n";
