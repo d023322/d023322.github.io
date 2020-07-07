@@ -178,13 +178,17 @@
     </div>
   </div>
 
-  <div class="container">
+  <?php
+    include footer.php;
+  ?>
+
+  <!-- <div class="container">
     <div id="footer" class="text-center p-5">
       <div class="wc-foot">
         <ul>
           <li><a href="https://www.ebay-kleinanzeigen.de/s-bestandsliste.html?userId=22989981"><img
                 src="images/EBay_Kleinanzeigen2.png" alt="ebay Kleinanzeigen"></a></li>
-          <!-- <li><a href="https://www.facebook.com"> <img src="images/Facebook.png"></a></li> -->
+           <li><a href="https://www.facebook.com"> <img src="images/Facebook.png"></a></li> 
         </ul>
       </div>
     </div>
@@ -203,7 +207,7 @@
         </ul>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- <div class="container">
     <div class="row">
