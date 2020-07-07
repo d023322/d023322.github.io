@@ -72,16 +72,16 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link box" href="index.html">Aktuelles</a>
+              <a class="nav-link box" href="index.php">Aktuelles</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link box" href="maerkte.html">Märkte</a>
+              <a class="nav-link box" href="maerkte.php">Märkte</a>
             </li>
             <li class="nav-item">
               <a class="nav-link box" href="ueberMich.html">Über&nbsp;Mich</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link box" href="kontakt.html">Kontakt<span class="sr-only">(current)</span></a>
+              <a class="nav-link box" href="kontakt.php">Kontakt<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link box" href="meineWahre.html">Meine&nbsp;Ware</a>
@@ -95,15 +95,33 @@
 
 
   <!-- Image header -->
-  <div class="w3-display-container w3-container">
+  <!-- <div class="w3-display-container w3-container">
     <img src="images/simone/buegel.jpg" alt="Erste Seite" style="width:100%">
     <div class="w3-display-topleft w3-text-white" style="padding:24px 48px">
       <h1 class="w3-jumbo w3-hide-small">mode-beratung.de</h1>
       <h1 class="w3-hide-large w3-hide-medium">mode-beratung.de</h1>
       <h1 class="w3-hide-small">kontakt@mode-beratung.de</h1>
-      <!-- <p><a href="#jeans" class="w3-button w3-black w3-padding-large w3-large"></a></p> -->
+      <p><a href="#jeans" class="w3-button w3-black w3-padding-large w3-large"></a></p>
     </div>
-  </div>
+  </div> -->
+
+  <?php
+    // Bilder einbinden
+    $bilder = ["jane.jpg","jeans.jpg", "buegel.jpg", "WestfalenhalleDo.jpg" ];
+    $max = count($bilder) -1;
+    
+    // $zufall = rand(0, $max);
+    $zufall = array_rand($bilder);
+    
+    echo "<div class=\"w3-display-container w3-container\">\n";
+    echo "<img src=\"images/$bilder[$zufall]\" alt=\"Erste Seite\" style=\"width:100%\">\n";
+    echo "<div class=\"w3-display-topleft w3-text-white\" style=\"padding:24px 48px\">\n";
+    echo "<h1 class=\"w3-jumbo w3-hide-small\">mode-beratung.de</h1>\n";
+    echo "<h1 class=\"w3-hide-large w3-hide-medium\">mode-beratung.de</h1>\n";
+    echo "<h1 class=\"w3-hide-small\">kontakt@mode-beratung.de</h1>\n";
+    echo "</div>\n</div>\n";
+  ?>
+
 
   <!-- Image header -->
   <div class="container-fluid">
