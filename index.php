@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
   <meta charset="utf-8">
@@ -57,15 +57,35 @@
   <!-- </div> -->
 
   <!-- Image header -->
-  <div class="w3-display-container w3-container">
+  <!-- <div class="w3-display-container w3-container">
     <img src="images/jane.jpg" alt="Erste Seite" style="width:100%">
     <div class="w3-display-topleft w3-text-white" style="padding:24px 48px">
       <h1 class="w3-jumbo w3-hide-small">mode-beratung.de</h1>
       <h1 class="w3-hide-large w3-hide-medium">mode-beratung.de</h1>
       <h1 class="w3-hide-small">kontakt@mode-beratung.de</h1>
-      <!-- <p><a href="#jeans" class="w3-button w3-black w3-padding-large w3-large"></a></p> -->
+      <p><a href="#jeans" class="w3-button w3-black w3-padding-large w3-large"></a></p>
     </div>
-  </div>
+  </div> -->
+
+  <?php
+    // Bilder einbinden
+    $bilder = ["jane.jpg","jeans.jpg", "buegel.jpg", "WestfalenhalleDo.jpg" ];
+    $max = count($bilder) -1;
+    
+    // $zufall = rand(0, $max);
+    $zufall = array_rand($bilder);
+    
+    echo "<div class=\"w3-display-container w3-container\">\n";
+    echo "<img src=\"images/$bilder[$zufall]\" alt=\"Erste Seite\" style=\"width:100%\">\n";
+    echo "<div class=\"w3-display-topleft w3-text-white\" style=\"padding:24px 48px\">\n";
+    echo "<h1 class=\"w3-jumbo w3-hide-small\">mode-beratung.de</h1>\n";
+    echo "<h1 class=\"w3-hide-large w3-hide-medium\">mode-beratung.de</h1>\n";
+    echo "<h1 class=\"w3-hide-small\">kontakt@mode-beratung.de</h1>\n";
+    echo "</div>\n</div>\n";
+  ?>
+
+
+
 
 
   <!-- <video class="uk-cover-object" autoplay="autoplay" controls="false" muted="" loop="" poster="/images/waltermann/webdesignwaltermann.jpg">
@@ -84,9 +104,14 @@
         </div>
         <div class="row">
           <p>
-            <br>
+            Münster, 03.07.2020 <br>
+            Ich wünsche allen KundInnen schöne Ferien und kommen Sie gesund wieder. <br>
+            Der nächste Markt in Köln findet statt am 26.07.2020, bis dahin verabschiede ich mich in die Ferien.<br>
+            Freundlichen Gruesse <br>
+            Simone Frieler<br><br>
+            Münster, 27.06.2020 <br>
             Liebe KundInnen,
-            Ferien haben begonnen und am Sonntag ist gleich der erste Markt am Rheinufer in Köln:<br>
+            Ferien haben begonnen und am Sonntag 28.06.2020 ist gleich der erste Markt am Rheinufer in Köln:<br>
             Standort: Kölner Altstadt, auf der Rheinuferpromenade, zwischen der Hohenzollern Brücke und der Bastei.
             <br>
             Parkmöglichkeiten: Parkhaus am Dom / Heumarkt
@@ -102,8 +127,7 @@
             Freundliche Grüße
             <br>
             Simone Frieler
-          </p>
-          <p>Eure Simone Frieler</p>
+          
         </div>
       </div>
     </div>
