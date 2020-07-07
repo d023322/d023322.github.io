@@ -311,8 +311,13 @@
     </div>
   </div>
 
+  <?php
+    include footer.php;
+  ?>
 
-  <div class="container">
+
+
+  <!-- <div class="container">
     <div id="footer" class="text-center p-5">
       <div class="wc-foot">
         <ul>
@@ -333,11 +338,11 @@
       </div>
       <div class="col-6 wc-foot text-left">
         <ul>
-          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="kontakt.php">Kontakt</a></li>
         </ul>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
 
