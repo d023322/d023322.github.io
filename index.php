@@ -179,7 +179,7 @@
   </div>
 
   <?php
-    include footer.php;
+    include "footer.php";
   ?>
 
   <!-- <div class="container">
