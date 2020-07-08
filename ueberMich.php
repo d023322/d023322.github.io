@@ -48,13 +48,13 @@
                 <a class="nav-link box" href="maerkte.php">Märkte</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link box" href="ueberMich.html">Über&nbsp;Mich<span class="sr-only">(current)</span></a>
+                <a class="nav-link box" href="ueberMich.php">Über&nbsp;Mich<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link box" href="kontakt.php">Kontakt</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link box" href="meineWahre.html">Meine&nbsp;Ware</a>
+                <a class="nav-link box" href="meineWahre.php">Meine&nbsp;Ware</a>
               </li>
             </ul>
           </div>

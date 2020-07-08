@@ -35,19 +35,19 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link box" href="index.php">Aktuelles<span class="sr-only">(current)</span></a>
+              <a class="nav-link box" href="index.html">Aktuelles<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link box" href="maerkte.php">Märkte</a>
+              <a class="nav-link box" href="maerkte.html">Märkte</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link box" href="ueberMich.php">Über&nbsp;Mich</a>
+              <a class="nav-link box" href="ueberMich.html">Über&nbsp;Mich</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link box" href="kontakt.php">Kontakt</a>
+              <a class="nav-link box" href="kontakt.html">Kontakt</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link box" href="meineWahre.php">Meine&nbsp;Ware</a>
+              <a class="nav-link box" href="meineWahre.html">Meine&nbsp;Ware</a>
             </li>
           </ul>
         </div>
@@ -57,35 +57,15 @@
   <!-- </div> -->
 
   <!-- Image header -->
-  <!-- <div class="w3-display-container w3-container">
+  <div class="w3-display-container w3-container">
     <img src="images/jane.jpg" alt="Erste Seite" style="width:100%">
     <div class="w3-display-topleft w3-text-white" style="padding:24px 48px">
       <h1 class="w3-jumbo w3-hide-small">mode-beratung.de</h1>
       <h1 class="w3-hide-large w3-hide-medium">mode-beratung.de</h1>
       <h1 class="w3-hide-small">kontakt@mode-beratung.de</h1>
-      <p><a href="#jeans" class="w3-button w3-black w3-padding-large w3-large"></a></p>
+      <!-- <p><a href="#jeans" class="w3-button w3-black w3-padding-large w3-large"></a></p> -->
     </div>
-  </div> -->
-
-  <?php
-    // Bilder einbinden
-    $bilder = ["jane.jpg","jeans.jpg", "buegel.jpg", "WestfalenhalleDo.jpg" ];
-    $max = count($bilder) -1;
-    
-    // $zufall = rand(0, $max);
-    $zufall = array_rand($bilder);
-    
-    echo "<div class=\"w3-display-container w3-container\">\n";
-    echo "<img src=\"images/$bilder[$zufall]\" alt=\"Erste Seite\" style=\"width:100%\">\n";
-    echo "<div class=\"w3-display-topleft w3-text-white\" style=\"padding:24px 48px\">\n";
-    echo "<h1 class=\"w3-jumbo w3-hide-small\">mode-beratung.de</h1>\n";
-    echo "<h1 class=\"w3-hide-large w3-hide-medium\">mode-beratung.de</h1>\n";
-    echo "<h1 class=\"w3-hide-small\">kontakt@mode-beratung.de</h1>\n";
-    echo "</div>\n</div>\n";
-  ?>
-
-
-
+  </div>
 
 
   <!-- <video class="uk-cover-object" autoplay="autoplay" controls="false" muted="" loop="" poster="/images/waltermann/webdesignwaltermann.jpg">
@@ -178,17 +158,13 @@
     </div>
   </div>
 
-  <?php
-    include "footer.php";
-  ?>
-
-  <!-- <div class="container">
+  <div class="container">
     <div id="footer" class="text-center p-5">
       <div class="wc-foot">
         <ul>
           <li><a href="https://www.ebay-kleinanzeigen.de/s-bestandsliste.html?userId=22989981"><img
                 src="images/EBay_Kleinanzeigen2.png" alt="ebay Kleinanzeigen"></a></li>
-           <li><a href="https://www.facebook.com"> <img src="images/Facebook.png"></a></li> 
+          <!-- <li><a href="https://www.facebook.com"> <img src="images/Facebook.png"></a></li> -->
         </ul>
       </div>
     </div>
@@ -203,11 +179,11 @@
       </div>
       <div class="col-6 wc-foot text-left">
         <ul>
-          <li><a href="kontakt.php">Kontakt</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
       </div>
     </div>
-  </div> -->
+  </div>
 
   <!-- <div class="container">
     <div class="row">

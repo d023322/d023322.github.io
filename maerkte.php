@@ -40,13 +40,13 @@
                 <a class="nav-link box" href="maerkte.php">Märkte<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link box" href="ueberMich.html">Über&nbsp;Mich</a>
+                <a class="nav-link box" href="ueberMich.php">Über&nbsp;Mich</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link box" href="kontakt.php">Kontakt</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link box" href="meineWahre.html">Meine&nbsp;Ware</a>
+                <a class="nav-link box" href="meineWahre.php">Meine&nbsp;Ware</a>
               </li>
             </ul>
           </div>
