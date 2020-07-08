@@ -61,6 +61,10 @@
 
   <!-- Grid row -->
 
+  <?php
+    include "top.php";
+  ?>
+
   <div class="container-fluid">
 
     <div class="row">

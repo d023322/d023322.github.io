@@ -54,7 +54,10 @@
                 <a class="nav-link box" href="kontakt.php">Kontakt</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link box" href="meineWahre.php">Meine&nbsp;Ware</a>
+                <a class="nav-link box" href="meineWahre.php
+                
+                
+                ">Meine&nbsp;Ware</a>
               </li>
             </ul>
           </div>
@@ -73,6 +76,10 @@
       <p><a href="#jeans" class="w3-button w3-black w3-padding-large w3-large">Kaufen</a></p>
     </div>
   </div> -->
+
+  <?php
+    include "top.php";
+  ?>
 
     <div class="container">
     <div class="row">
