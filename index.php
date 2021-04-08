@@ -88,6 +88,12 @@
         </div>
         <div class="row">
           <p>
+            Münster, 02.04.2021 <br>
+            Hallo Liebe KundInnnen, <br>
+            leider finden zur Zeit keine Märkte statt. <br>
+            Allerdings habe ich unter Meine Wahre viele neue Bilder hochgeladen, vielleicht ist ja auch für Sie etwas dabei. <br>
+            Freundlichen Gruesse <br>
+            Simone Frieler<br><br>  
             Münster, 03.07.2020 <br>
             Ich wünsche allen KundInnen schöne Ferien und kommen Sie gesund wieder. <br>
             Der nächste Markt in Köln findet statt am 26.07.2020, bis dahin verabschiede ich mich in die Ferien.<br>
