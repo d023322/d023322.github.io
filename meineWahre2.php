@@ -2,6 +2,8 @@
 
 $i=0;
 
+
+// kleidung ausgeben
 while ($i < 227) {
   echo "<div class=\"mb-1 pics animation all 1\">\n";
   echo "<figure>\n";
@@ -12,6 +14,7 @@ while ($i < 227) {
   $i++;
 }
 
+// kleidung ausgeben
 $i=1;
 while ($i < 45) {
     echo "<div class=\"mb-1 pics animation all 1\">\n";
@@ -23,6 +26,7 @@ while ($i < 45) {
     $i++;
 }
 
+// Schuhe ausgeben
 $i=1;
 while ($i < 2) {
     echo "<div class=\"mb-1 pics animation all 2\">\n";
@@ -34,6 +38,7 @@ while ($i < 2) {
     $i++;
 }
 
+// Schmuck ausgeben
 $i=1;
 while ($i < 6) {
     echo "<div class=\"mb-1 pics animation all 3\">\n";
@@ -45,6 +50,7 @@ while ($i < 6) {
     $i++;
 }
   
+// Accessoires ausgeben
 $i=1;
 while ($i < 5) {
     echo "<div class=\"mb-1 pics animation all 4\">\n";
@@ -55,15 +61,5 @@ while ($i < 5) {
     echo "</div>\n";
     $i++;
 }
-
-
-
-
-
-
-
-
-
-
 
 ?>
