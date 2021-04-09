@@ -3,30 +3,16 @@
 
 $i=0;
 // kleidung ausgeben
-while ($i < 227) {
+while ($i < 271) {
   echo "<div class=\"mb-1 pics animation all 1\">\n";
   echo "<figure>\n";
   echo "<a target=\"_blank\" href=\"images/simone/kl$i.jpg\">\n";
-  echo "<img class=\"img_fluid img-thumbnail\" src=\"images/simone/thn$i.jpg\" alt=\"Card image cap\" title=\"kl$i.jpg\">\n";
+  echo "<img class=\"img_fluid img-thumbnail\" src=\"images/simone/thkl$i.jpg\" alt=\"Card image cap\" title=\"kl$i.jpg\">\n";
   echo "<figcaption>Galery Kleider kl$i.jpg</figcaption>\n";
   echo "</a>\n";
   echo "</figure>\n";
   echo "</div>\n";
   $i++;
-}
-
-// kleidung ausgeben
-$i=0;
-while ($i < 44) {
-    echo "<div class=\"mb-1 pics animation all 1\">\n";
-    echo "<figure>\n";
-    echo "<a target=\"_blank\" href=\"images/simone/k$i.jpg\">\n";
-    echo "<img class=\"img-fluid\" src=\"images/simone/thnk$i.jpg\" alt=\"Card image cap\" title=\"k$i.jpg\">\n";
-    echo "<figcaption>Galery Kleider k$i.jpg</figcaption>\n";
-    echo "</a>\n";
-    echo "</figure>\n";
-    echo "</div>\n";
-    $i++;
 }
 
 // Schuhe ausgeben
