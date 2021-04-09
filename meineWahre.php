@@ -94,47 +94,60 @@
 
     <!-- Grid column -->
     <div class="mb-1 pics animation all 1">
-      <img class="img-fluid" src="images/simone/kl0.jpg" alt="Card image cap">
+    <figure>
+      <img class="img-fluid" src="images/simone/kl0.jpg" alt="Card image cap" title="kl0.jpg">
+      <figcaption>Galery Kleider kl0.jpg</figcaption>
+    </figure>
     </div>
 <!-- Grid column -->
 <div class="mb-1 pics animation all 1">
-      <img class="img-fluid" src="images/simone/kl1.jpg" alt="Card image cap">
+      <img class="img-fluid" src="images/simone/kl1.jpg" alt="Card image cap" title="kl1.jpg">
+      <figcaption>Galery Kleider kl1.jpg</figcaption>
     </div>
 <!-- Grid column -->
 <div class="mb-1 pics animation all 1">
-      <img class="img-fluid" src="images/simone/kl2.jpg" alt="Card image cap">
+      <img class="img-fluid" src="images/simone/kl2.jpg" alt="Card image cap" title="kl2.jpg">
+      <figcaption>Galery Kleider kl2.jpg</figcaption>
     </div>
 <!-- Grid column -->
 <div class="mb-1 pics animation all 1">
-      <img class="img-fluid" src="images/simone/kl3.jpg" alt="Card image cap">
+      <img class="img-fluid" src="images/simone/kl3.jpg" alt="Card image cap" title="kl3.jpg">
+      <figcaption>Galery Kleider kl3.jpg</figcaption>
     </div>
 <!-- Grid column -->
 <div class="mb-1 pics animation all 1">
-      <img class="img-fluid" src="images/simone/kl4.jpg" alt="Card image cap">
+      <img class="img-fluid" src="images/simone/kl4.jpg" alt="Card image cap" title="kl4.jpg">
+      <figcaption>Galery Kleider kl4.jpg</figcaption>
     </div>
 <!-- Grid column -->
 <div class="mb-1 pics animation all 1">
-      <img class="img-fluid" src="images/simone/kl5.jpg" alt="Card image cap">
+      <img class="img-fluid" src="images/simone/kl5.jpg" alt="Card image cap" title="kl5.jpg">
+      <figcaption>Galery Kleider kl5.jpg</figcaption>
     </div>
 <!-- Grid column -->
 <div class="mb-1 pics animation all 1">
-      <img class="img-fluid" src="images/simone/kl6.jpg" alt="Card image cap">
+      <img class="img-fluid" src="images/simone/kl6.jpg" alt="Card image cap" title="kl6.jpg">
+      <figcaption>Galery Kleider kl6.jpg</figcaption>
     </div>
 <!-- Grid column -->
 <div class="mb-1 pics animation all 1">
-      <img class="img-fluid" src="images/simone/kl7.jpg" alt="Card image cap">
+      <img class="img-fluid" src="images/simone/kl7.jpg" alt="Card image cap" title="kl7.jpg">
+      <figcaption>Galery Kleider kl7.jpg</figcaption>
     </div>
 <!-- Grid column -->
 <div class="mb-1 pics animation all 1">
-      <img class="img-fluid" src="images/simone/kl8jpg" alt="Card image cap">
+      <img class="img-fluid" src="images/simone/kl8.jpg" alt="Card image cap" title="kl8.jpg">
+      <figcaption>Galery Kleider kl8.jpg</figcaption>
     </div>
 <!-- Grid column -->
 <div class="mb-1 pics animation all 1">
-      <img class="img-fluid" src="images/simone/kl9.jpg" alt="Card image cap">
+      <img class="img-fluid" src="images/simone/kl9.jpg" alt="Card image cap" title="kl9.jpg">
+      <figcaption>Galery Kleider kl9.jpg</figcaption>
     </div>
 <!-- Grid column -->
 <div class="mb-1 pics animation all 1">
-      <img class="img-fluid" src="images/simone/kl10.jpg" alt="Card image cap">
+      <img class="img-fluid" src="images/simone/kl10.jpg" alt="Card image cap" title="kl10.jpg">
+      <figcaption>Galery Kleider kl10.jpg</figcaption>
     </div>
 <!-- Grid column -->
 <div class="mb-1 pics animation all 1">
@@ -960,7 +973,7 @@
     </div>
 <!-- Grid column -->
 <div class="mb-1 pics animation all 1">
-      <img class="img-fluid" src="images/simone/kl215.jpg" alt="Card image cap">
+      <img class="img-fluid" src="images/simone/kl215.jpg" alt="Card image cap" >
     </div>
 <!-- Grid column -->
 <div class="mb-1 pics animation all 1">

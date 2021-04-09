@@ -1,6 +1,8 @@
 <?php
     // Bilder einbinden
-    $bilder = ["jane.jpg","jeans.jpg", "buegel.jpg", "WestfalenhalleDo.jpg", "kleider1.jpg", "kleider2.jpg" , "kleider3.jpg" ];
+    // $bilder = ["jane.jpg","jeans.jpg", "buegel.jpg", "WestfalenhalleDo.jpg", "kleider1.jpg", "kleider2.jpg" , "kleider3.jpg" ];
+    $bilder = ["top0.jpg","top1.jpg", "top2.jpg", "top3.jpg", "top4.jpg", "top5.jpg" , "top6.jpg" ];
+    
     $max = count($bilder) -1;
     
     // $zufall = rand(0, $max);
