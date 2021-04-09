@@ -89,7 +89,7 @@
 
 
 
-<div class="gallery" id="gallery">
+
 
  
 <?php
