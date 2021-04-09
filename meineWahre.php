@@ -86,16 +86,17 @@
   </div>
   <!-- <button class="btn--info thing2"><h6>Kontakt@Mode-Beratung.de</h6></button> -->
 
-  
 
-  <div class="gallery" id="gallery">
+
+
+<div class="gallery" id="gallery">
 
  
 <?php
     include "meineWahre2.php";
 ?>
    
-  </div>
+</div>
   <!-- </div>
   </div> -->
 

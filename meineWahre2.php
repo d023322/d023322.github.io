@@ -1,14 +1,15 @@
 <?php
 
+
 $i=0;
-
-
 // kleidung ausgeben
 while ($i < 227) {
   echo "<div class=\"mb-1 pics animation all 1\">\n";
   echo "<figure>\n";
-  echo "<img class=\"img-fluid\" src=\"images/simone/kl$i.jpg\" alt=\"Card image cap\" title=\"kl$i.jpg\">\n";
+  echo "<a target=\"_blank\" href=\"images/simone/kl$i.jpg\">\n";
+  echo "<img class=\"img_fluid img-thumbnail\" src=\"images/simone/thn$i.jpg\" alt=\"Card image cap\" title=\"kl$i.jpg\">\n";
   echo "<figcaption>Galery Kleider kl$i.jpg</figcaption>\n";
+  echo "</a>\n";
   echo "</figure>\n";
   echo "</div>\n";
   $i++;
