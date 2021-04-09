@@ -2,7 +2,7 @@
 
 $i=0;
 
-while ($i < 257) {
+while ($i < 227) {
   echo "<div class=\"mb-1 pics animation all 1\">\n";
   echo "<figure>\n";
   echo "<img class=\"img-fluid\" src=\"images/simone/kl$i.jpg\" alt=\"Card image cap\" title=\"kl$i.jpg\">\n";
