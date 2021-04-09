@@ -34,8 +34,10 @@ $i=1;
 while ($i < 2) {
     echo "<div class=\"mb-1 pics animation all 2\">\n";
     echo "<figure>\n";
-    echo "<img class=\"img-fluid\" src=\"images/simone/sc$i.jpg\" alt=\"Card image cap\" title=\"sc$i.jpg\">\n";
+    echo "<a target=\"_blank\" href=\"images/simone/sc$i.jpg\">\n";
+    echo "<img class=\"img-fluid\" src=\"images/simone/thsc$i.jpg\" alt=\"Card image cap\" title=\"sc$i.jpg\">\n";
     echo "<figcaption>Galery Schuhe sc$i.jpg</figcaption>\n";
+    echo "</a>\n";
     echo "</figure>\n";
     echo "</div>\n";
     $i++;
@@ -43,11 +45,13 @@ while ($i < 2) {
 
 // Schmuck ausgeben
 $i=1;
-while ($i < 6) {
+while ($i < 7) {
     echo "<div class=\"mb-1 pics animation all 3\">\n";
     echo "<figure>\n";
-    echo "<img class=\"img-fluid\" src=\"images/simone/s$i.jpg\" alt=\"Card image cap\" title=\"s$i.jpg\">\n";
+    echo "<a target=\"_blank\" href=\"images/simone/s$i.jpg\">\n";
+    echo "<img class=\"img-fluid\" src=\"images/simone/ths$i.jpg\" alt=\"Card image cap\" title=\"s$i.jpg\">\n";
     echo "<figcaption>Galery Schmuck s$i.jpg</figcaption>\n";
+    echo "</a>\n";
     echo "</figure>\n";
     echo "</div>\n";
     $i++;
@@ -58,8 +62,10 @@ $i=1;
 while ($i < 5) {
     echo "<div class=\"mb-1 pics animation all 4\">\n";
     echo "<figure>\n";
-    echo "<img class=\"img-fluid\" src=\"images/simone/a$i.jpg\" alt=\"Card image cap\" title=\"a$i.jpg\">\n";
+    echo "<a target=\"_blank\" href=\"images/simone/a$i.jpg\">\n";
+    echo "<img class=\"img-fluid\" src=\"images/simone/tha$i.jpg\" alt=\"Card image cap\" title=\"a$i.jpg\">\n";
     echo "<figcaption>Galery Accessories a$i.jpg</figcaption>\n";
+    echo "</a>\n";
     echo "</figure>\n";
     echo "</div>\n";
     $i++;
