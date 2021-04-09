@@ -16,12 +16,14 @@ while ($i < 227) {
 }
 
 // kleidung ausgeben
-$i=1;
-while ($i < 45) {
+$i=0;
+while ($i < 44) {
     echo "<div class=\"mb-1 pics animation all 1\">\n";
     echo "<figure>\n";
-    echo "<img class=\"img-fluid\" src=\"images/simone/k$i.jpg\" alt=\"Card image cap\" title=\"k$i.jpg\">\n";
+    echo "<a target=\"_blank\" href=\"images/simone/k$i.jpg\">\n";
+    echo "<img class=\"img-fluid\" src=\"images/simone/thnk$i.jpg\" alt=\"Card image cap\" title=\"k$i.jpg\">\n";
     echo "<figcaption>Galery Kleider k$i.jpg</figcaption>\n";
+    echo "</a>\n";
     echo "</figure>\n";
     echo "</div>\n";
     $i++;
