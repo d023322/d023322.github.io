@@ -88,36 +88,14 @@
         </div>
         <div class="row">
           <p>
-            Münster, 02.04.2021 <br>
+            Münster im April 2021 <br>
             Hallo Liebe KundInnnen, <br>
-            leider finden zur Zeit keine Märkte statt. <br>
+            leider finden zur Zeit immer noch keine öffentlichen Märkte statt. <br>
             Allerdings habe ich unter "Meine Ware" viele neue Bilder hochgeladen, vielleicht ist ja auch für Euch etwas dabei :-). <br>
-            Freundlichen Gruesse <br>
+            Bleibt Gesund! <br>
+            Freundliche Gruesse <br>
             Simone Frieler<br><br>  
-            Münster, 03.07.2020 <br>
-            Ich wünsche allen KundInnen schöne Ferien und kommen Sie gesund wieder. <br>
-            Der nächste Markt in Köln findet statt am 26.07.2020, bis dahin verabschiede ich mich in die Ferien.<br>
-            Freundlichen Gruesse <br>
-            Simone Frieler<br><br>
-            Münster, 27.06.2020 <br>
-            Liebe KundInnen,
-            Ferien haben begonnen und am Sonntag 28.06.2020 ist gleich der erste Markt am Rheinufer in Köln:<br>
-            Standort: Kölner Altstadt, auf der Rheinuferpromenade, zwischen der Hohenzollern Brücke und der Bastei.
-            <br>
-            Parkmöglichkeiten: Parkhaus am Dom / Heumarkt
-            <br>
-            Bus und Bahn: Heumarkt: Linie 1, 7, 8, 9, 132, 133,
-            <br>
-            Dom/Hbf.: Linie 5, 16, 17, 18, 19, 132, 133
-            <br>
-            Allen, trotz Corona, schöne Ferien!
-            <br><br>
-            Gute Erholung und bleibt gesund!
-            <br>
-            Freundliche Grüße
-            <br>
-            Simone Frieler
-          
+            
         </div>
       </div>
     </div>

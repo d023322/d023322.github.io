@@ -72,11 +72,13 @@
       <!-- Grid column -->
       <div class="col-md-12 d-flex justify-content-lg-start mb-5">
         <div class="btn-group-sm m-3">
+          <!--
           <button type="button" class="btn btn-outline-black waves-effect filter btn-success" data-rel="all">Alle Bilder</button>
           <button type="button" class="btn btn-outline-black waves-effect filter btn-danger"  data-rel="1">Kleidung</button>
           <button type="button" class="btn btn-outline-black waves-effect filter btn-info"    data-rel="2">Schuhe</button>
           <button type="button" class="btn btn-outline-black waves-effect filter btn-dark"    data-rel="3">Schmuck</button>
           <button type="button" class="btn btn-outline-black waves-effect filter btn-primary" data-rel="4">Accessoires</button>
+          -->
         </div>
       </div>
       <!-- Grid column -->
@@ -91,17 +93,12 @@
 
 <div class="container">
   <div class="row">
-
-
  
 <?php
     include "meineWahre2.php";
 ?>
    </div>
 </div>
-  <!-- </div>
-  </div> -->
-
 
 
   <div class="container">
