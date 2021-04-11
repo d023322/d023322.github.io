@@ -89,13 +89,15 @@
 
 
 
+<div class="container">
+  <div class="row">
 
 
  
 <?php
     include "meineWahre2.php";
 ?>
-   
+   </div>
 </div>
   <!-- </div>
   </div> -->
