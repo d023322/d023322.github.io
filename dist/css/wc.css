@@ -42,3 +42,10 @@ figure {
     text-align: center;
     color: white;
 }
+
+figcaption {
+    background-color: darkmagenta;
+    font-family: serif;
+    text-align: center;
+    color: white;
+}
