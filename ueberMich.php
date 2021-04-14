@@ -91,20 +91,21 @@
                         <div class="col-md-6">
                             <!-- <img src="images/simone/simone4.jpg" class="artikelbild img-responsive" alt="Bild Simone" class="w-25"> -->
                             <img src="images/simone/simone4.jpg" class="w3-circle" alt="Bild Simone">
-                            <img src="images/simone/simone4.jpg" class="w3-image" alt="Bild Simone">
 
                         </div>
                         <div class="col-md-6">
                             <h1><a href="ueberMich.html" class="box title">Über Mich</a></h1>
                             <p class="lead">Seit Über 20 Jahren bin ich auf Deutschlands qualitativ hochwertigen Märkten
-                                in
-                                Deutschland vertreten.
+                                vertreten.<br>
+                                In der Pademie Zeit habe ich mich entschlossen mit meiner Homepage euch auch ohne Märkte
+                                meine schönen Sachen zu presentieren. Schaut euch unter "Meine Ware" die neue
+                                Bildergalerie an.<br>
+                                Weiter Bilder werden noch folgen.
                             </p>
                         </div>
                         <div class="col-md-6">
                             <!-- <img src="images/simone/simone4.jpg" class="artikelbild img-responsive" alt="Bild Simone" class="w-25"> -->
-                            <img src="images/simone/simone4.jpg" class="w3-circle" alt="Bild Simone">
-                            <img src="images/simone/simone4.jpg" class="w3-image" alt="Bild Simone">
+                            <img src="images/simone/simone5.jpg" class="w3-image" alt="Bild Simone">
 
                         </div>
                     </div>
