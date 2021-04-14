@@ -1,6 +1,24 @@
 <?php
 
 $i=0;
+// neue Sachen zuerst
+while ($i < 10) {
+    $filename = "images/simone/xx$i.jpg";
+    if (file_exists($filename)) {
+      echo "<div class=\"mb-1 pics animation all 1\">\n";
+      echo "<a target=\"_blank\" href=\"images/simone/xx$i.jpg\">\n";
+      echo "<figure>\n";
+      echo "<img class=\"img-fluid img-thumbnail\" src=\"images/simone/thxx$i.jpg\" alt=\"Card image cap\" title=\"xx$i.jpg\">\n";
+      echo "<figcaption>xx$i.jpg</figcaption>\n";
+      echo "</figure>\n";
+      echo "</a>\n";
+      echo "</div>\n";
+    }
+    $i++;
+  }
+  
+
+$i=0;
 // kleidung ausgeben
 while ($i < 271) {
   $filename = "images/simone/kl$i.jpg";
