@@ -2,7 +2,7 @@
 
 $i=0;
 // neue Sachen zuerst
-while ($i < 10) {
+while ($i < 20) {
     $filename = "images/simone/xx$i.jpg";
     if (file_exists($filename)) {
       echo "<div class=\"mb-1 pics animation all 1\">\n";
