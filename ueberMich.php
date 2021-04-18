@@ -100,7 +100,7 @@
                                 In der Pademie Zeit habe ich mich entschlossen mit meiner Homepage euch auch ohne Märkte
                                 meine schönen Sachen zu präsentieren. Schaut euch unter "Meine Ware" die neue
                                 Bildergalerie an.<br>
-                                Weiter Bilder werden noch folgen.
+                                Weitere Bilder werden noch folgen.
                             </p>
                         </div>
                         <div class="col-md-6">
