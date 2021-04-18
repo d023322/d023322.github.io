@@ -1,6 +1,23 @@
 <?php
 
 $i=0;
+// neue Sachen 18.04.2021 zuerst
+while ($i < 180) {
+    $filename = "images/simone/yy$i.jpg";
+    if (file_exists($filename)) {
+      echo "<div class=\"mb-1 pics animation all 1\">\n";
+      echo "<a target=\"_blank\" href=\"images/simone/yy$i.jpg\">\n";
+      echo "<figure>\n";
+      echo "<img class=\"img-fluid img-thumbnail\" src=\"images/simone/thyy$i.jpg\" alt=\"Card image cap\" title=\"yy$i.jpg\">\n";
+      echo "<figcaption>yy$i.jpg</figcaption>\n";
+      echo "</figure>\n";
+      echo "</a>\n";
+      echo "</div>\n";
+    }
+    $i++;
+  }
+
+$i=0;
 // neue Sachen zuerst
 while ($i < 20) {
     $filename = "images/simone/xx$i.jpg";

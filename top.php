@@ -15,4 +15,9 @@
     echo "<h1 class=\"w3-hide-large w3-hide-medium\">mode-beratung.de</h1>\n";
     echo "<h1 class=\"w3-hide-small\">kontakt@mode-beratung.de</h1>\n";
     echo "</div>\n</div>\n";
+
+    echo "<div class=\"container\">\n";
+    echo "<h1>Herzlich Willkommen auf meiner Homepage.</h1>\n";
+    echo "</div>\n";
+
   ?>
