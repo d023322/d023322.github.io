@@ -89,7 +89,7 @@
                 <div class="row">
                     <p>
                         <strong>Münster im April 2021</strong> <br><br>
-                        Hallo Liebe KundInnnen, <br>
+                        Hallo liebe KundInnnen, <br>
                         leider finden zur Zeit immer noch keine öffentlichen Märkte statt. <br>
                         Allerdings habe ich unter "Meine Ware" viele neue Bilder hochgeladen, vielleicht ist ja auch für
                         euch etwas dabei :-). <br>

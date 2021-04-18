@@ -17,7 +17,7 @@
     echo "</div>\n</div>\n";
 
     echo "<div class=\"container\">\n";
-    echo "<h1>Herzlich Willkommen auf meiner Homepage.</h1>\n";
+    echo "<h3><strong>Herzlich willkommen auf meiner Homepage.</strong></h3>\n";
     echo "</div>\n";
 
   ?>
