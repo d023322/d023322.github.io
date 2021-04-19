@@ -93,6 +93,8 @@
                         leider finden zur Zeit immer noch keine öffentlichen Märkte statt. <br>
                         Allerdings habe ich unter "Meine Ware" viele neue Bilder hochgeladen, vielleicht ist ja auch für
                         euch etwas dabei :-). <br>
+                        <strong>Schickt mir eure Anfragen doch gerne per Mail oder per WhatsApp.<br>
+                            Gerne können wir auch einen Termin vereinbaren.</strong><br><br>
                         Bleibt gesund! <br>
                         Freundliche Gruesse <br>
                         Simone Frieler<br><br>
