@@ -49,3 +49,7 @@ figcaption {
     text-align: center;
     color: white;
 }
+
+.btn-lg {
+    border-radius: 2.3rem;
+}
